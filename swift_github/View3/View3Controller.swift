@@ -9,7 +9,10 @@
 import UIKit
 
 class View3Controller: UIViewController {
-
+    @IBAction func onTouchButton(_ sender: Any) {
+        view.backgroundColor = UIColor.blue
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
