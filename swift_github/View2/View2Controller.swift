@@ -17,6 +17,9 @@ class View2Controller: UIViewController {
     }
     
 
+    @IBAction func changeButtun(_ sender: Any) {
+        view.backgroundColor = UIColor.magenta
+    }
     /*
     // MARK: - Navigation
 
