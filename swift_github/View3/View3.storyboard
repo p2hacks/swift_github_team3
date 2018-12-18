@@ -29,6 +29,9 @@
                                 <rect key="frame" x="165" y="364" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onTouchButton:" destination="eod-cv-MfP" eventType="touchUpInside" id="7PS-Er-OKb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
